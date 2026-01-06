@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "microwave-filter-synthesis"
+version = "0.1.0"
+description = "Microwave filter synthesis using coupling matrix methods"
+readme = "README.md"
+requires-python = ">=3.9"
+
+authors = [
+  { name = "Yang Liu", email = "liuyangxtp@gmail.com" }
+]
+
+license = { text = "MIT" }
+
+dependencies = [
+  "numpy",
+  "scipy",
+  "scikit-rf",
+  "matplotlib",
+]
+
+keywords = [
+  "microwave",
+  "rf",
+  "filter",
+  "coupling-matrix",
+  "chebyshev"
+]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)"
+]
+
+[project.urls]
+Homepage = "https://github.com/LyingCortex/microwave-filter-synthesis"
+Repository = "https://github.com/LyingCortex/microwave-filter-synthesis"
