@@ -44,3 +44,27 @@ cm = mfs.folded(cm)
 freq = mfs.Frequency.linspace(6e9, 7.5e9, 2001)
 ntw = mfs.SParameterModel().evaluate(cm, freq)
 ```
+
+## Features
+
+- Generalized Chebyshev filter synthesis
+
+- Immutable coupling matrix operations
+
+- Explicit frequency unit handling
+
+- Compatible with scikit-rf
+
+- Suitable for high-order filter research
+
+## Project Status
+
+This project is under active development.
+The API may change before version 1.0.0.
+
+## License
+
+MIT License
+
+
+
