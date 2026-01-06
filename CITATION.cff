@@ -1,0 +1,10 @@
+```yaml
+cff-version: 1.2.0
+title: microwave-filter-synthesis
+message: "If you use this software in your research, please cite it."
+authors:
+  - family-names: Liu
+    given-names: Yang
+version: 0.1.0
+date-released: 2026-01-06
+license: MIT
